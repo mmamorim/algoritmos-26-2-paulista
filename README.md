@@ -1,6 +1,8 @@
-# Algoritmos e Programação 2026-2 PAULISTA - MANHÃ
+<img src="/assets/teste.svg" width="100%">
 
-## prof Marcelo Amorim
+#### Algoritmos e Programação 2026-2 PAULISTA - MANHÃ
+
+#### *prof Marcelo Amorim*
 
 ### link deste repositório https://github.com/mmamorim/algoritmos-26-2-paulista
 
