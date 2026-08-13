@@ -6,6 +6,6 @@
 
 ---
 
-* [Aula01](./aula01/) (10/02) - Apresentação da UC / Introdução Java
+* [Aula01](./aula01/) (13/08) - Apresentação da UC / Introdução Java
     * [Problema dos Baldes](https://mmamorim.github.io/baldes/)
     * [Exercícios](./aula01/exercicios.md)  
