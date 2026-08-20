@@ -11,3 +11,6 @@
 * [Aula01](./aula01/) (13/08) - Apresentação da UC / Introdução Java
     * [Problema dos Baldes](https://mmamorim.github.io/baldes/)
     * [Exercícios](./aula01/exercicios.md)  
+* [Aula02](./aula02/) (20/08) - Introdução, Saída / Leitura e Variáveis 
+    * [Exercícios](./aula02/exercicios.md) 
+    * Códigos Aula:
