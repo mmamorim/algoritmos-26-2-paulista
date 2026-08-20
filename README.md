@@ -12,5 +12,7 @@
     * [Problema dos Baldes](https://mmamorim.github.io/baldes/)
     * [Exercícios](./aula01/exercicios.md)  
 * [Aula02](./aula02/) (20/08) - Introdução, Saída / Leitura e Variáveis 
+    * [Ranking das linguagens](https://www.tiobe.com/tiobe-index/)
+    * [NetBeans](https://netbeans.apache.org/front/main/index.html)
     * [Exercícios](./aula02/exercicios.md) 
     * Códigos Aula:
