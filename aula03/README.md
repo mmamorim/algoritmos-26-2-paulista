@@ -1,6 +1,6 @@
 <img src="/assets/teste.svg" width="100%">
 
-# Aula 2 - 24/08/2026
+# Aula 3 - 27/08/2026
 
 
 ## Estrutura da Classe Principal em Java

@@ -15,4 +15,7 @@
     * [Ranking das linguagens](https://www.tiobe.com/tiobe-index/)
     * [NetBeans](https://netbeans.apache.org/front/main/index.html)
     * [Exercícios](./aula02/exercicios.md) 
+    * Códigos Aula: [Aula02.java](./aula02/Aula02.java)
+* [Aula03](./aula03/) (27/08) - Introdução, Saída / Leitura e Variáveis 
+    * [Exercícios](./aula02/exercicios.md) 
     * Códigos Aula:
