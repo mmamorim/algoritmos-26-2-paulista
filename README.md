@@ -18,4 +18,4 @@
     * Códigos Aula: [Aula02.java](./aula02/Aula02.java)
 * [Aula03](./aula03/) (27/08) - Introdução, Saída / Leitura e Variáveis 
     * [Exercícios](./aula02/exercicios.md) 
-    * Códigos Aula:
+    * Códigos Aula: [Aula03.java](./aula03/Aula03.java) [ExercicioTreino.java](./aula03/ExercicioTreino.java)
