@@ -26,3 +26,5 @@
 * [Aula04](./aula04/) (03/09) - Desvios Condicionais
     * [Exercícios](./aula04/exercicios.md) 
     * Códigos Aula: 
+        * [Aula04Ex1.java](./aula04/Aula4Ex1.java)
+        * [Aula04Ex2.java](./aula04/Aula4Ex2.java)
