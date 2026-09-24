@@ -1,6 +1,6 @@
 <img src="/assets/teste.svg" width="100%">
 
-# Exercícios - Aula 05 - 24/03
+# Exercícios - Aula 05 - 24/09
 
 #### Exercício 1 – Contagem de Caracteres
 >
