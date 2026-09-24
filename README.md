@@ -28,3 +28,6 @@
     * Códigos Aula: 
         * [Aula04Ex1.java](./aula04/Aula4Ex1.java)
         * [Aula04Ex2.java](./aula04/Aula4Ex2.java)
+* **TECH WEEK** 17/09
+* [Aula05](./aula05/) (24/09) - Laços de Repetição
+    * [Jogo dos palitinhos](./aula05/ExercicioJogoPalitinhos.md) 
