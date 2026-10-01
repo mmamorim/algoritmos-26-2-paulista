@@ -31,3 +31,5 @@
 * **TECH WEEK** 17/09
 * [Aula05](./aula05/) (24/09) - Laços de Repetição
     * [Jogo dos palitinhos](./aula05/ExercicioJogoPalitinhos.md) 
+* [Aula06](./aula06/) (01/10) - Arrays e Modularização
+    * [Exercícios](./aula06/exercicios.md) 
