@@ -1,6 +1,6 @@
 <img src="/assets/teste.svg" width="100%">
 
-# Aula 8 - 14/04/2026
+# Aula 6 - 01/10/2026
 
 ## Arrays (Vetores) em Java
 
