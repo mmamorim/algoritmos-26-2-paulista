@@ -1,3 +1,4 @@
+package aula06;
 import java.io.IOException;
 
 public class Screen {
