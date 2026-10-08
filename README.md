@@ -33,3 +33,5 @@
     * [Jogo dos palitinhos](./aula05/ExercicioJogoPalitinhos.md) 
 * [Aula06](./aula06/) (01/10) - Arrays e Modularização
     * [Exercícios](./aula06/exercicios.md) 
+* [Aula07](./aula07/) (08/10) - Arrays e Modularização
+    * A REVANCHE 
