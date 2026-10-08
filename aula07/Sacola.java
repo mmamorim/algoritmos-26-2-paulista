@@ -39,20 +39,7 @@ public class Sacola {
             Screen.clear();
             op = imprimeMenu();
         }
-
-        // imprimeProdutos();
-        // System.out.println("Qual código adicionar na sacola? (-1 p/ sair)");
-        // int codigo = sc.nextInt();
-        // while (codigo >= 0) {
-        // sacola[qtde] = codigo;
-        // qtde++;
-        // Screen.clear();
-        // imprimeProdutos();
-        // System.out.println("Qual código adicionar na sacola? (-1 p/ sair)");
-        // codigo = sc.nextInt();
-        // }
-        // imprimeSacola();
-
+        
     }
 
     public static void imprimeProdutos() {
