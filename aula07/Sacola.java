@@ -25,6 +25,9 @@ public class Sacola {
                 System.out.println("digite alguma tecla para continuar...");
                 sc.nextLine();
             }
+            if(op == 3) {
+                adicionarSacola();
+            }
             Screen.clear();
             op = imprimeMenu();
         }
@@ -89,6 +92,6 @@ public class Sacola {
     }
 
     public static void adicionarSacola() {
-        
+
     }
 }
