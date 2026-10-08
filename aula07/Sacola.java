@@ -5,11 +5,16 @@ import java.util.Scanner;
 public class Sacola {
     static String prods[] = { "Feijão", "Batata", "Alface", "Arroz" };
     static int sacola[] = new int[1000];
-    static int qtde = 0;
+    static int qtde = 5;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Screen.clear();
+        sacola[0] = 1;
+        sacola[1] = 2;
+        sacola[2] = 0;
+        sacola[3] = 3;
+        sacola[4] = 2;
 
         int op = imprimeMenu();
         //System.out.println("VC digitou: " + op);
@@ -17,16 +22,19 @@ public class Sacola {
         while (op > 0) {
             if(op == 1) {
                 imprimeProdutos();
-                System.out.println("digite alguma tecla para continuar...");
+                System.out.println("Enter para continuar...");
                 sc.nextLine();
             }
             if(op == 2) {
                 imprimeSacola();
-                System.out.println("digite alguma tecla para continuar...");
+                System.out.println("Enter para continuar...");
                 sc.nextLine();
             }
             if(op == 3) {
                 adicionarSacola();
+            }
+            if(op == 4) {
+                excluirSacola();
             }
             Screen.clear();
             op = imprimeMenu();
@@ -64,7 +72,7 @@ public class Sacola {
         }
         for (int i = 0; i < qtde; i++) {
             int codigo = sacola[i];
-            System.out.println(i + " - " + prods[codigo]);
+            System.out.println(i + " - [COD "+codigo+"] " + prods[codigo]);
         }
     }
 
@@ -92,6 +100,31 @@ public class Sacola {
     }
 
     public static void adicionarSacola() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Qual código adicionar na sacola?");
+        int codigo = sc.nextInt();
+        while(codigo < 0 || codigo > prods.length-1) {
+            System.out.println("Codigo Inválido");
+            System.out.println("Qual código adicionar na sacola?");
+            codigo = sc.nextInt();
+        }
+        sacola[qtde] = codigo;
+        qtde++;
+    }
 
+    public static void excluirSacola() {
+        Scanner sc = new Scanner(System.in);
+        imprimeSacola();
+        System.out.println("Qual item quer excluir?");
+        int pos = sc.nextInt();
+        while(pos < 0 || pos > qtde-1) {
+            System.out.println("Posição Inválida");
+            System.out.println("Qual item quer excluir?");
+            pos = sc.nextInt();
+        }
+        for(int i=pos; i < qtde; i++) {
+            sacola[i] = sacola[i+1];
+        }
+        qtde--;
     }
 }
