@@ -1,4 +1,4 @@
-package aula06;
+package aula07;
 import java.io.IOException;
 
 public class Screen {
