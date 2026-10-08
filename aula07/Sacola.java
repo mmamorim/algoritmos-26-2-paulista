@@ -12,7 +12,22 @@ public class Sacola {
         Screen.clear();
 
         int op = imprimeMenu();
-        System.out.println("VC digitou: " + op);
+        //System.out.println("VC digitou: " + op);
+
+        while (op > 0) {
+            if(op == 1) {
+                imprimeProdutos();
+                System.out.println("digite alguma tecla para continuar...");
+                sc.nextLine();
+            }
+            if(op == 2) {
+                imprimeSacola();
+                System.out.println("digite alguma tecla para continuar...");
+                sc.nextLine();
+            }
+            Screen.clear();
+            op = imprimeMenu();
+        }
 
         // imprimeProdutos();
         // System.out.println("Qual código adicionar na sacola? (-1 p/ sair)");
@@ -40,6 +55,10 @@ public class Sacola {
     public static void imprimeSacola() {
         System.out.println("PRODUTOS NA SACOLA");
         System.out.println("=================");
+        if(qtde == 0) {
+            System.out.println("sacola vazia....");
+            System.out.println("=================");
+        }
         for (int i = 0; i < qtde; i++) {
             int codigo = sacola[i];
             System.out.println(i + " - " + prods[codigo]);
