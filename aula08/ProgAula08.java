@@ -9,11 +9,13 @@ public class ProgAula08 {
 
         ListaProdutos listaProd = new ListaProdutos();
 
-        listaProd.adiciona(new Produto("Feijão",23.0));
-        listaProd.adiciona(new Produto("Arroz",23.0));
-        listaProd.adiciona(new Produto("Batata",23.0));
-        listaProd.adiciona(new Produto("Alface",14.0));
+        //listaProd.adiciona(new Produto("Feijão",23.0));
+        //listaProd.adiciona(new Produto("Arroz",23.0));
+        //listaProd.adiciona(new Produto("Batata",23.0));
+        //listaProd.adiciona(new Produto("Alface",14.0));
 
+        listaProd.carregarDados();
         listaProd.imprime();
+        //listaProd.salvar();
     }
 }
