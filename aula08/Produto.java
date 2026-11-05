@@ -13,7 +13,7 @@ public class Produto {
         this.preco = preco;
     }
 
-    public void imprime() {
-        System.out.println("nome: "+nome+" "+"preço: "+preco);
+    public void imprime(int codigo) {
+        System.out.println("COD: "+codigo+" nome: "+nome+" "+"preço: "+preco);
     }
 }
