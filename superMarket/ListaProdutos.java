@@ -57,11 +57,11 @@ public class ListaProdutos {
         for (int i = 0; i < qtde; i++) {
             prods[i] = lista[i];
         }
-        CsvUtil.salvar(prods, "./aula08/produtos.csv");
+        CsvUtil.salvar(prods, "./superMarket/produtos.csv");
     }
 
     public void carregarDados() {
-        Produto[] prods = CsvUtil.ler("./aula08/produtos.csv", Produto.class);
+        Produto[] prods = CsvUtil.ler("./superMarket/produtos.csv", Produto.class);
         for (int i = 0; i < prods.length; i++) {
             lista[i] = prods[i];
         }

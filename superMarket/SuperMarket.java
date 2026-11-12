@@ -7,8 +7,13 @@ public class SuperMarket {
     public static void main(String[] args) {
         Screen.clear();
 
-        CadProduto cadastro = new CadProduto();
+        //CadProduto cadastro = new CadProduto();
+        //cadastro.menu();
 
-        cadastro.menu();
+        //CadCliente cadastro = new CadCliente();
+        //cadastro.menu();
+        
+        MenuPrincipal menu = new MenuPrincipal();
+        menu.mostrar();
     }
 }
