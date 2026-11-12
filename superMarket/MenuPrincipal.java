@@ -16,7 +16,7 @@ public class MenuPrincipal {
         System.out.println("0) SAIR");
         System.out.println("1) CADASTRO DE CLIENTES");
         System.out.println("2) CADASTRO DE PRODUTOS");
-        System.out.println("3) ");
+        System.out.println("3) FAZER COMPRA");
         System.out.println("4) ");
         Scanner sc = new Scanner(System.in);
         int op = sc.nextInt();
