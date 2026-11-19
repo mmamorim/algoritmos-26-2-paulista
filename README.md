@@ -6,8 +6,8 @@
 
 ### link deste repositório https://github.com/mmamorim/algoritmos-26-2-paulista
 
-### FORMULÁRIO DEFINIÇÃO GRUPOS A3 
-[Formulário](https://forms.gle/6oyUiX3Ho6VbqE2T7)
+### FORMULÁRIO PARA ENTREGA DO LINK GITHUB PROJETO A3 
+[Formulário para ENTREGA DO PROJETO](https://forms.gle/KxT1SdkLvxzT6vPh8)
 
 ### PROJETO A3 
 [Enunciado Projeto A3](./projetoA3.md)
