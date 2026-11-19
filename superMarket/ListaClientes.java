@@ -32,7 +32,22 @@ public class ListaClientes {
         System.out.println("Qual o código do Cliente?");
         int codigo = sc.nextInt();
         removerItem(codigo);
-        salvar();        
+        salvar();
+    }
+
+    public void alterar() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ALTERAR Cliente");
+        System.out.println("===================");
+        imprime();
+        System.out.println("===================");
+        System.out.println("Qual o código do Cliente?");
+        int codigo = sc.nextInt();
+        Cliente c = lista[codigo];
+        c.lerDados();
+        salvar();
+        System.out.println("Dados do Cliente salvos com sucesso!");
+        Screen.pressEnterToContinue();
     }
 
     public void removerItem(int codigo) {

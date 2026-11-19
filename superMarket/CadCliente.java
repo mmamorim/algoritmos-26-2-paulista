@@ -34,6 +34,9 @@ public class CadCliente {
         if(op == 3) {
             lista.remover();
         }
+        if(op == 4) {
+            lista.alterar();
+        }
         menu();
     }
 
